@@ -69,7 +69,7 @@ def index():
 
     return (
 
-        f"Welcome to the Hawaii Weather API!<br/>"
+        f"Home Page<br/>"
 
         f"Available Routes:<br/>"
 
@@ -79,7 +79,7 @@ def index():
 
         f"/api/v1.0/tobs<br/>"
 
-        f"/api/v1.0/start_date(YYYY-MM-DD)/end_date(YYYY-MM-DD)"
+        f"/api/v1.0/start(YYYY-MM-DD)/end(YYYY-MM-DD)"
 
     )
 
